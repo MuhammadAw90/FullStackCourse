@@ -5,37 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="HTML, CSS" />
     <meta name="description" content="..." />
-    <title>My instagram page</title>
+    <title>My contant info</title>
     <style>
       img {
         width: 200px;
-        border-radius: 50px;
-        float: left;
+        border-radius: 100px;
+        float: center;
         margin-right: 10px;
       }
+      .WebPage {
+        max-width: 500px;
+        margin: auto;
+      }
       .username {
+        font-size: 20px;
         font-weight: bold;
       }
-      em {
+      .insta {
         color: purple;
         font-style: normal;
+        font-weight: bold;
+      }
+      .email {
+        color: black;
+        font-style: normal;
+        font-weight: bold;
+      }
+      .cell {
+        color: black;
+        font-style: normal;
+        font-weight: bold;
       }
     </style>
   </head>
-  <body>
+  <body class="WebPage">
     <h1>Welcome to my profile</h1>
-    <h2>Here you cam contant me!</h2>
-    <h3>This is my instagram username and photo!</h3>
+    <h2>Here you can contant me via several ways</h2>
+    <h3>This is my instagram username and profile photo!</h3>
     <img src="images/image_for_insta.jpg" alt="my instagram" />
-    <p class="username">@m7mdaw90</p>
+    <p class="username">
+      <a href="https://www.instagram.com/m7mdaw90/?hl=en">@m7mdaw90</a>
+    </p>
     <p>
       You can send me a <i>direct</i> <strong>message</strong> to my
-      <em>INSTAGRAM</em>!
+      <em class="insta">INSTAGRAM</em>!
     </p>
-    <h4>More contant ways</h4>
-    <p>Email : Muhammad.Awawdy90@gmail.com</p>
-    <h5>Muhammad Awawdy</h5>
-    <h6>Keep in touch!</h6>
+    <h4>More contant info:</h4>
+    <p>Email : <em class="email">Muhammad.Awawdy90@gmail.com</em></p>
+    <h5>Cellular : <em class="cell">+972527082835</em></h5>
+    <h6>Let's keep in touch!</h6>
     <! –– we use "i" to show the text only in italic font ––>
     <! –– we use "strong" or "b" to show the text as bold ––>
     <! –– There element were deprecated, so recommeded to use "em" instead and style using CSS ––>
