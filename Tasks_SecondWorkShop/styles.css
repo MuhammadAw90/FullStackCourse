@@ -1,0 +1,58 @@
+/* Box Dimensions/Properties */
+.Animalcard {
+    width: 310px;
+    border: 1px solid #DCDCDC;
+    box-shadow: 6px 6px 1px 0px #EBEBEB;
+    padding-right: .2em;
+    padding-left: .7em;
+    padding-bottom: .6em;
+  }
+  
+  .infobox {
+    width: 283px;
+    border: 1px solid #DCDCDC;
+    padding-right: .5em;
+    padding-left: .5em;
+  }
+  
+  /* Image */
+  .animalPicture {
+    width: 300px;
+    height: 200px;
+    padding-bottom: .8em;
+  }
+  
+  /* Interesting Fact */
+  .funfact {
+    font-style: italic;
+  }
+  
+  /* List Information */
+  .list-info{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    font-weight: bold;
+  }
+
+  .ScientificName {
+    background-color: yellow;
+  }
+
+  .AverageLength {
+    background-color: yellow;
+  }
+
+  .AverageLifespan {
+    background-color: yellow;
+  }
+
+  .Habitat {
+    background-color: yellow;
+  }
+  .WebPage {
+    background: cyan;
+  }
+  
